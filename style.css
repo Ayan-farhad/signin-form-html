@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.Sign-in {
+    background-color: rgb(222, 220, 220);
+    width: 380px;
+    height: 520px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h1 {
+    color: rgb(72, 114, 239);
+    margin: 30px 0 40px;
+    font-size: 2.2rem;
+}
+
+input {
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 0 0 20px;
+    font-size: 16px;
+    box-shadow: 0px 4px 10px rgba(65, 150, 199, 0.503);
+}
+
+.P-1 {
+    margin-right: 120px;
+    font-size: 15px;
+    color: rgb(65, 150, 199);
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(72, 114, 239);
+    color: #ffff;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(65, 150, 199, 0.503);
+}
+button:hover{
+    box-shadow: 0px 4px 10px rgba(65, 150, 199, 0.813);
+    cursor: pointer;
+}
+
+.P-2 {
+    font-size: 14px;
+    font-weight: 520;
+    color: rgb(151, 149, 149);
+    margin-top: 20px;
+}
+
+.icons {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+img {
+    width: 18px;
+    background-color: aliceblue;
+    padding: 7px;
+    border-radius: 100%;
+    box-shadow: 4px rgba(66, 72, 75, 0.503);
+    cursor: pointer;
+}
+img:hover{
+    cursor: pointer;
+}
+
+.P-3{
+    font-size: 12px;
+    color: rgb(65, 150, 199);
+    margin-top: 20px;
+}
